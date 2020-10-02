@@ -1,0 +1,64 @@
+
+(myvenv) C:\Users\Rakib\Desktop\myblog>django-admin.exe startproject mysite
+
+(myvenv) C:\Users\Rakib\Desktop\myblog>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 566B-881F
+
+ Directory of C:\Users\Rakib\Desktop\myblog
+
+10/01/2020  10:32 PM    <DIR>          .
+10/01/2020  10:32 PM    <DIR>          ..
+10/01/2020  10:32 PM    <DIR>          mysite
+10/01/2020  10:07 PM    <DIR>          myvenv
+10/01/2020  10:15 PM                15 requirements.txt
+               1 File(s)             15 bytes
+               4 Dir(s)  30,892,580,864 bytes free
+
+(myvenv) C:\Users\Rakib\Desktop\myblog>cd mysite
+
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 566B-881F
+
+ Directory of C:\Users\Rakib\Desktop\myblog\mysite
+
+10/01/2020  10:32 PM    <DIR>          .
+10/01/2020  10:32 PM    <DIR>          ..
+10/01/2020  10:32 PM               553 manage.py
+10/01/2020  10:32 PM    <DIR>          mysite
+               1 File(s)            553 bytes
+               3 Dir(s)  30,910,386,176 bytes free
+
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite>cd mysite
+
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite\mysite>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 566B-881F
+
+ Directory of C:\Users\Rakib\Desktop\myblog\mysite\mysite
+
+10/01/2020  10:32 PM    <DIR>          .
+10/01/2020  10:32 PM    <DIR>          ..
+10/01/2020  10:32 PM             3,209 settings.py
+10/01/2020  10:32 PM               769 urls.py
+10/01/2020  10:32 PM               405 wsgi.py
+10/01/2020  10:32 PM                 0 __init__.py
+               4 File(s)          4,383 bytes
+               2 Dir(s)  30,910,386,176 bytes free
+
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite\mysite>settings.py
+
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite\mysite>settings.py
+
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite\mysite>
+
+
+#change in settings.py:
+
+
+TIME_ZONE = 'Asia/Dhaka'
+
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
