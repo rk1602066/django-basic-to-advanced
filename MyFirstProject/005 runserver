@@ -1,0 +1,9 @@
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 02, 2020 - 03:57:32
+Django version 2.0.13, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+// CTRL + c
