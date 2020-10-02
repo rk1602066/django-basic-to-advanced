@@ -1,0 +1,13 @@
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite\mysite>settings.py
+
+(myvenv) C:\Users\Rakib\Desktop\myblog\mysite\mysite>
+
+
+#change in settings.py:
+
+
+TIME_ZONE = 'Asia/Dhaka'
+
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
