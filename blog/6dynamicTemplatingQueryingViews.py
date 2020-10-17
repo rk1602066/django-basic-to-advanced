@@ -33,3 +33,25 @@ blog/templates/blog/post_list.html::
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
+
+
+static files:
+ 
+blog
+├── blog
+│   ├── migrations  
+│   ├── static
+│   └── templates
+└── mysite
+
+myblog
+└─── blog
+     └─── static
+          |└─── css
+          |     └─── blog.css
+          |----js
+                |__blog.js
+     
+so django will looking for the static files in these directory     
+
+
