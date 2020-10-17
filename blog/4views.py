@@ -14,4 +14,7 @@ def post_list(request):
 "a":1,"b":2
 }
 return render(request,'blog/post_list.html',dict_name)
+
+it will try to find post_list.html file from blog/templates/blog folder
+so we have to create templates/blog/post_list.html within blog folder
 */
