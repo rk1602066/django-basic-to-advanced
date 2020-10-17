@@ -35,6 +35,8 @@ blog/templates/blog/post_list.html::
 {% endfor %}
 
 
+
+
 static files:
  
 blog
@@ -55,3 +57,6 @@ myblog
 so django will looking for the static files in these directory     
 
 
+#but we have to tell .html file that there is a css static file for him:
+so add: {% load static %} at the very begining of the file
+ and then within head tag(after bootstrap links) add:<link rel="stylesheet" href="{% static 'css/blog.css' %}">
