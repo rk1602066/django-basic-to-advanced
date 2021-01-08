@@ -1,0 +1,33 @@
+IN settings.py:
+---------------
+"here images folder must be inside of static folder"
+STATIC_URL = '/static/'
+MEDIA_URL = '/images/'
+"base dir means the dir that contains the file called manage.py"
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR,'static'),
+)
+
+
+IN projects urls.py:
+--------------------
+from django.conf.urls.static import static
+from django.conf import settings
+
+urlpatterns = [
+
+]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+
+
+IN appFolder:
+-------------
+folder->templates\hytmlfile\index.html
+folder->static\images
+	static\css
+	static\js
+
+IN index.html:
+--------------
+{%load static %}
+src = "{%static	'images/imagename.pnj' %}"
+src = "http...../{{imagename}}.pnj"
